@@ -1,0 +1,21 @@
+---
+kind: pipeline
+type: docker
+name: default
+
+platform:
+  os: linux
+  arch: amd64
+
+steps:
+- name: docker
+  image: plugins/docker
+  settings:
+    repo: docker.io/kanatakita/portal
+    tags: latest
+    dockerfile: ./Dockerfile
+    username:
+      from_secret: docker_username
+    password:
+      from_secret: docker_password
+

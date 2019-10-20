@@ -47,4 +47,6 @@ steps:
   - git config user.email dummy@example.com
   - git commit -m "update by Drone CI ($REMOTE_URL/commit/$COMMIT_HASH)"
   - git push origin HEAD
+  depends_on:
+  - docker
 

@@ -47,7 +47,7 @@ steps:
   - git add .
   - git config user.name DroneCI
   - git config user.email dummy@example.com
-  - git commit -m "update by Drone CI ($REMOTE_URL/commit/$COMMIT_HASH)"
+  - git commit -m "update by Drone CI (${REMOTE_URL%.git}/commit/$COMMIT_HASH)"
   - git push origin HEAD
   depends_on:
   - docker

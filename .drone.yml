@@ -7,6 +7,10 @@ platform:
   os: linux
   arch: amd64
 
+trigger:
+  branch:
+  - master
+
 steps:
 - name: git-commit-hash
   image: alpine/git:1.0.7

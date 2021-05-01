@@ -22,12 +22,12 @@ export const others: Other[] = [
     content: 'ISUCON9 本戦出場',
   },
   {
-    period: '2018/06',
-    content: 'Interop Tokyo 2018 STM',
-  },
-  {
     period: '2018/05 ~ 2019/03',
     content: 'ICTSC2018 学生運営',
+  },
+  {
+    period: '2018/06',
+    content: 'Interop Tokyo 2018 STM',
   },
   {
     period: '2019/11',

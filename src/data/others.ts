@@ -30,7 +30,7 @@ export const others: Other[] = [
     content: 'Interop Tokyo 2018 STM',
   },
   {
-    period: '2019/11',
+    period: '2017/11',
     content: 'ISUCON7 本戦出場 (学生枠)',
   },
   {

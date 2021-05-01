@@ -1,9 +1,9 @@
-FROM node:15.11.0-alpine3.11 AS base
+FROM node:15.11.0-alpine3.13 AS base
 WORKDIR /base
 COPY package.json yarn.lock ./
 RUN yarn install
 
-FROM node:15.11.0-alpine3.11
+FROM node:15.11.0-alpine3.13
 WORKDIR /base
 COPY --from=base /base ./
 COPY . .

@@ -1,5 +1,13 @@
-FROM nginx:1.17.4
+FROM node:15.11.0-alpine3.11 AS base
+WORKDIR /base
+COPY package.json yarn.lock ./
+RUN yarn install
 
-ADD index.html /usr/share/nginx/html/
-ADD favicon.ico /usr/share/nginx/html/
-ADD images /usr/share/nginx/html/images
+FROM node:15.11.0-alpine3.11
+WORKDIR /base
+COPY --from=base /base ./
+COPY . .
+RUN yarn build
+
+CMD [ "yarn", "start", "-p", "3001" ]
+EXPOSE 3001

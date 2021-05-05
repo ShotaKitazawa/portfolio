@@ -31,7 +31,7 @@ export const AboutMe: React.FC = ({
 
           <div className="my-5">
             <a href="mailto:skitazawa1121@gmail.com" className="text-indigo-200 block text-center font-medium leading-6 px-6 py-3 bg-indigo-600">
-              Connect with <span className="font-bold">E-mail</span>
+              <span className="font-bold">Contact E-mail</span>
             </a>
           </div>
 

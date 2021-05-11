@@ -9,7 +9,7 @@
     "lint": "eslint '*/**/*.{js,ts}' --quiet --fix"
   },
   "dependencies": {
-    "@material-ui/core": "^4.11.3",
+    "@material-ui/core": "^4.11.4",
     "@material-ui/icons": "^4.11.2",
     "autoprefixer": "^10.2.5",
     "csv-parse": "^4.15.4",

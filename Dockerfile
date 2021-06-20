@@ -6,7 +6,7 @@ RUN yarn install
 FROM node:15.11.0-alpine3.13
 WORKDIR /base
 COPY --from=base /base ./
-COPY . .
+COPY . ./
 RUN yarn build
 
 CMD [ "yarn", "start", "-p", "3001" ]

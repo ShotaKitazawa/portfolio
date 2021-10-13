@@ -22,11 +22,11 @@ export const menuItems: menu[] = [
     label: 'Career',
   },
   {
-    path: 'certifications',
-    label: 'Certifications',
+    path: 'archivements',
+    label: 'Archivements',
   },
   {
-    path: 'others',
-    label: 'Others',
+    path: 'certifications',
+    label: 'Certifications',
   },
 ]

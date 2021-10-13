@@ -7,7 +7,7 @@ import { Certifications } from '../sections/Certifications'
 import { Career } from '../sections/Career'
 import { Presentations } from '../sections/Presentations'
 import { Links } from '../sections/Links'
-import { Others } from '../sections/Others'
+import { Archivements } from '../sections/Archivements'
 
 /* TODO
 type Props = InferGetStaticPropsType<typeof getStaticProps>;
@@ -24,15 +24,15 @@ return {
 */
 
 // const IndexPage: NextPage<Props> = (props) => {
-const IndexPage: NextPage = (props) => {
+const IndexPage: NextPage = () => {
   return (
     <Layout>
       <AboutMe />
       <Links />
       <Presentations />
       <Career />
+      <Archivements />
       <Certifications />
-      <Others />
     </Layout>
   )
 }

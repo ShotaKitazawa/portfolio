@@ -22,16 +22,19 @@ module.exports = {
         "@typescript-eslint"
     ],
     "rules": {
-        'prettier/prettier': [
-            'error',
+        "prettier/prettier": [
+            "error",
             {
-                trailingComma: 'all',
-                endOfLine: 'lf',
+                trailingComma: "all",
+                endOfLine: "lf",
                 semi: false,
                 singleQuote: true,
                 printWidth: 80,
                 tabWidth: 2,
             },
         ],
+        // TODO
+        "react/react-in-jsx-scope": "off",
+        "react/prop-types": 0
     }
 };

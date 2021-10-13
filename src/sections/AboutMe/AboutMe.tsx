@@ -1,15 +1,9 @@
-export const AboutMe: React.FC = ({
-  children,
-}) => {
+export const AboutMe: React.FC = () => {
   return (
     <section id="aboutme" className="mb-28">
       <div className="text-center">
-        <h2 className="font-bold text-3xl tracking-tight">
-          About Me
-        </h2>
-        <div className="text-gray-400 text-xl">
-          自己紹介
-        </div>
+        <h2 className="font-bold text-3xl tracking-tight">About Me</h2>
+        <div className="text-gray-400 text-xl">自己紹介</div>
       </div>
 
       <div className="pt-20" />
@@ -25,12 +19,19 @@ export const AboutMe: React.FC = ({
         </div>
 
         <div className="mt-12">
-          <p className="font-bold text-center text-3xl text-gray-800">かなた / kanata</p>
+          <p className="font-bold text-center text-3xl text-gray-800">
+            かなた / kanata
+          </p>
           <div className="mt-2" />
-          <p className="font-bold text-center text-xl text-gray-800">(北澤 祥太 / Shota Kitazawa)</p>
+          <p className="font-bold text-center text-xl text-gray-800">
+            (北澤 祥太 / Shota Kitazawa)
+          </p>
 
           <div className="my-5">
-            <a href="mailto:skitazawa1121@gmail.com" className="text-indigo-200 block text-center font-medium leading-6 px-6 py-3 bg-indigo-600">
+            <a
+              href="mailto:skitazawa1121@gmail.com"
+              className="text-indigo-200 block text-center font-medium leading-6 px-6 py-3 bg-indigo-600"
+            >
               <span className="font-bold">Contact E-mail</span>
             </a>
           </div>
@@ -42,7 +43,6 @@ export const AboutMe: React.FC = ({
               <li>趣味: 🍜 ラーメン 🏂 スノボ 💻 自宅鯖構築</li>
             </ul>
           </div>
-
         </div>
       </div>
     </section>

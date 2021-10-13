@@ -1,13 +1,13 @@
-import { InferGetStaticPropsType, GetStaticProps, NextPage } from 'next';
+//import { InferGetStaticPropsType, GetStaticProps, NextPage } from 'next'
+import { NextPage } from 'next'
 
 import { Layout } from '../components/Layout'
 import { AboutMe } from '../sections/AboutMe'
-import { Certifications } from '../sections/Certifications';
-import { Career } from '../sections/Career';
-import { Presentations } from '../sections/Presentations';
+import { Certifications } from '../sections/Certifications'
+import { Career } from '../sections/Career'
+import { Presentations } from '../sections/Presentations'
 import { Links } from '../sections/Links'
-import { Others } from '../sections/Others';
-
+import { Others } from '../sections/Others'
 
 /* TODO
 type Props = InferGetStaticPropsType<typeof getStaticProps>;

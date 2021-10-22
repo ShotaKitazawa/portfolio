@@ -4,8 +4,8 @@ export const Archivements: React.FC = () => {
   return (
     <section id="archivements" className="mb-28">
       <div className="text-center">
-        <h2 className="font-bold text-3xl tracking-tight">Archivements</h2>
-        <div className="text-gray-400 text-xl">獲得した賞</div>
+        <h2 className="font-bold text-3xl tracking-tight">Recorq</h2>
+        <div className="text-gray-400 text-xl">イベント戦績</div>
       </div>
 
       <div className="mb-8" />

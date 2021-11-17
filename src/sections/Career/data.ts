@@ -16,7 +16,7 @@ export const data: Career[] = [
   {
     period: '2021/02 ~',
     kind: 'イベント運営',
-    content: 'CloudNative Days 実行委員 (Dreamkast 開発)',
+    content: 'CloudNative Days: Dreamkast 開発',
     url: 'https://cloudnativedays.jp/',
   },
   {
@@ -27,7 +27,7 @@ export const data: Career[] = [
   },
   {
     period: '2019/04 ~ ',
-    kind: '新卒入社',
+    kind: '勤務',
     content: 'NTTコミュニケーションズ株式会社',
     url: 'http://archive.interop.jp/2018/',
   },
